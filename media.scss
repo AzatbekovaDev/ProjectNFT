@@ -41,6 +41,140 @@
   }
 }
 @media (max-width: 1024px) {
+  #header{
+    .searcher{
+      &--search{
+        padding: 0 0 0 430px;
+      }
+      &--menu{
+        padding: 0 40px 0 40px;
+        width: 50%;
+      }
+    }
+  }
+  #discover {
+    .discover {
+      &--img3 {
+        padding: 40px 0 0 380px;
+      }
+
+      &--rectangle7 {
+        padding: 260px 0 0 30px;
+      }
+
+      &--rectangle8 {
+        padding: 400px 0 0 150px;
+      }
+
+      &--img2 {
+        padding: 0 0 0 255px;
+      }
+
+      &--tittle1 {
+        &__cover {
+          font-size: 65px;
+        }
+
+        &__collect {
+          font-size: 65px;
+        }
+      }
+
+      &--remark {
+        font-size: 65px;
+      }
+
+      &--tittle2 {
+        padding: 20px 0 0 220px;
+
+        &__sell {
+          font-size: 55px;
+        }
+
+        &__img {
+          width: 250px;
+          height: 60px;
+        }
+      }
+
+      &--star4 {
+        margin: -40px 0 0 185px;
+      }
+
+      &--star2 {
+        padding: 20px 0 0 90px;
+      }
+
+      &--rectangle {
+        padding: 0 0 0 800px;
+      }
+
+      &--star3 {
+        margin: -100px 0 0 900px;
+      }
+
+      &--img4 {
+        margin: -450px 0 0 875px;
+      }
+
+      &--sponsors {
+        &__base {
+          font-size: 30px;
+        }
+
+        &__bin {
+          &--binance {
+            font-size: 30px;
+          }
+        }
+
+        &__revolut {
+          font-size: 30px;
+          margin: 0 -30px 0 20px;
+        }
+
+        &__trans {
+          padding: 0 20px 0 0;
+
+          &--tittle {
+            font-size: 30px;
+          }
+        }
+
+        &__meta {
+          &--metamask {
+            font-size: 30px;
+          }
+        }
+      }
+
+      &--images {
+        &__img {
+          width: 200px;
+          height: 30px;
+        }
+      }
+    }
+  }
+  #slider {
+    .collection {
+      .swiper-slide {
+        &__street {
+          font-size: 25px;
+          padding: 200px 0 0 0;
+        }
+
+        &__tittle {
+          font-size: 14px;
+          padding: 280px 0 0 0;
+        }
+
+        &__btn {
+          margin: 340px 0 0 180px;
+        }
+      }
+    }
+  }
 }
 @media (max-width: 992px) {
 }
