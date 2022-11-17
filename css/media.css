@@ -1,3 +1,31 @@
-
+@media (max-width: 1200px) {
+  #discover .discover--rectangle {
+    display: none;
+  }
+  #discover .discover--tittle1 {
+    padding: 20px 0 0 130px;
+  }
+  #discover .discover--tittle2__sell {
+    font-size: 80px;
+  }
+  #discover .discover--img2 {
+    padding: 0 0 0 330px;
+  }
+  #discover .discover--img3 {
+    padding: 40px 0 0 500px;
+  }
+  #discover .discover--rectangle8 {
+    padding: 400px 0 0 210px;
+  }
+  #discover .discover--rectangle7 {
+    padding: 260px 0 0 80px;
+  }
+  #discover .discover--rectangle {
+    padding: 0 0 0 990px;
+  }
+  #discover .discover--img4 {
+    margin: -450px 0 0 1020px;
+  }
+}
 
 /*# sourceMappingURL=media.css.map */

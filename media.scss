@@ -1,0 +1,60 @@
+@media (max-width: 1200px) {
+  #discover {
+    .discover {
+      &--rectangle{
+        display: none;
+      }
+      &--tittle1 {
+        padding: 20px 0 0 130px;
+      }
+
+      &--tittle2 {
+        &__sell {
+          font-size: 80px;
+        }
+      }
+
+      &--img2 {
+        padding: 0 0 0 330px;
+      }
+
+      &--img3 {
+        padding: 40px 0 0 500px;
+      }
+
+      &--rectangle8 {
+        padding: 400px 0 0 210px;
+      }
+
+      &--rectangle7 {
+        padding: 260px 0 0 80px;
+      }
+
+      &--rectangle {
+        padding: 0 0 0 990px;
+      }
+
+      &--img4 {
+        margin: -450px 0 0 1020px;
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
+@media (max-width: 450px) {
+}
+@media (max-width: 414px) {
+}
+@media (max-width: 380px) {
+}
+@media (max-width: 360px) {
+}
+@media (max-width: 320px) {
+}
