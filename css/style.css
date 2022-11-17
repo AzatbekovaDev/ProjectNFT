@@ -1,15 +1,17 @@
-* {
-  padding: 0;
-  margin: 0;
-}
+/* Error: Undefined mixin.
+ *    ,
+ * 11 |     @include align;
+ *    |     ^^^^^^^^^^^^^^
+ *    '
+ *   style.scss 11:5  root stylesheet */
 
-.container {
-  margin: 0 auto;
-  width: 90%;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 11 \2502      @include align;\a    \2502      ^^^^^^^^^^^^^^\a    \2575 \a   style.scss 11:5  root stylesheet";
 }
-
-a {
-  text-decoration: none;
-}
-
-/*# sourceMappingURL=style.css.map */
