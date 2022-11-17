@@ -9,3 +9,199 @@
 a{
   text-decoration: none;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+a {
+  text-decoration: none;
+}
+
+@mixin input {
+  background: transparent;
+  padding: 0 10px;
+  border-radius: 41px;
+  border: 1px solid white;
+  color: white;
+  margin: 0 0 0 80px;
+  width: 340px;
+  height: 51px;
+}
+
+@mixin align {
+  display: flex;
+  align-items: center;
+}
+
+@mixin tittle {
+  font-size: 96px;
+  color: white;
+}
+
+@mixin center {
+  width: 199px;
+  height: 47px;
+  left: 85px;
+  top: 5213px;
+  border: 1px solid #A7A7A7;
+  border-radius: 39px;
+}
+
+@mixin five {
+  font-weight: 500;
+  font-size: 24px;
+  color: #F1B864;
+  text-align: center;
+}
+
+@mixin one {
+  font-weight: 500;
+  font-size: 40px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+@mixin hr {
+  width: 32px;
+  height: 31px;
+  border-radius: 30px;
+  margin: 0 0 0 1000px;
+}
+
+@mixin df {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.58);
+
+
+}
+
+@mixin h2 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #D29C10;
+  padding: 30px;
+}
+
+@mixin ash1 {
+  color: white;
+  padding: 0 0 0 200px;
+}
+
+@mixin tittle2 {
+  font-size: 16px;
+  color: white;
+}
+
+@mixin base {
+  font-size: 35px;
+  color: white;
+}
+
+@mixin white {
+  font-size: 20px;
+  color: #F1B864;
+}
+
+@mixin tittle3 {
+  font-size: 32px;
+  color: white;
+  text-align: center;
+}
+
+@mixin star {
+  font-size: 35px;
+  color: #FFFFFF;
+}
+
+@mixin circles {
+  width: 3%;
+  height: 3%;
+  border-radius: 50%;
+}
+
+@mixin flex {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+
+@mixin as {
+  width: 124px;
+  height: 44px;
+  border: 1px solid #FFFFFF;
+  border-radius: 39px;
+  transform: rotate(-90deg);
+}
+
+@mixin stuff {
+  color: #F1B864;
+  font-size: 20px;
+}
+
+@mixin fames {
+  color: white;
+  font-size: 45px;
+}
+
+@mixin arond {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin btnt {
+  background: #15141A;
+  border: 1px solid #FFFFFF;
+}
+
+@mixin btnns {
+  color: white;
+  font-size: 20px;
+}
+
+@mixin btnse {
+  width: 161px;
+  height: 63px;
+  background: #FE8B46;
+  border: 1px solid #FFFFFF;
+  border-radius: 38px;
+}
+
+@mixin between {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin moro {
+  width: 92%;
+  height: 96%;
+  border: 1px solid #A6A6A6;
+  border-radius: 26px;
+}
+
+$color: white;
+
+@mixin centr {
+  display: flex;
+  justify-content: center;
+
+}
+
+@mixin grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@mixin just {
+  display: flex;
+  justify-content: center;
+
+}
