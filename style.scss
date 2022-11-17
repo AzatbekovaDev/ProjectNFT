@@ -1,1 +1,320 @@
 @import "mixin";
+#monkeys {
+  background: #15141A;
+  padding: 0 0 10% 0;
+  font-family: 'Inter', sans-serif;
+
+  .monkeys {
+    &--item {
+      padding: 0 0 10% 0;
+
+      &__as {
+        position: absolute;
+        margin: 5% 0 0 5%;
+        @include as;
+      }
+
+      &__star {
+        position: absolute;
+        margin: 0 0 0 30%;
+        @include star;
+      }
+
+      &__long {
+        position: absolute;
+        margin: 0 0 0 87%;
+        @include circles;
+        border: solid 2px #F4BF00;
+
+      }
+
+      &__block {
+        position: absolute;
+        @include circles;
+        border: solid 2px #FE67EF;
+        margin: 5% 0 0 80%;
+      }
+    }
+
+    &--discover {
+      @include flex;
+
+      &__stuff {
+        color: #F1B864;
+        font-size: 20px;
+        @include flex;
+      }
+
+      &__fames {
+        color: white;
+        font-size: 32px;
+        @include flex;
+
+      }
+    }
+
+    &--btn {
+      @include between;
+      padding: 50px 0 50px 0;
+
+      &__btnt {
+        @include btnns;
+        @include btnt;
+        @include arond;
+        width: 231px;
+        height: 58px;
+        border-radius: 14px;
+
+      }
+
+      &__btnt:hover {
+        background: #FE8B46;
+        color: #15141A;
+        width: 220px;
+        height: 80px;
+      }
+
+      &__btns {
+        @include btnse;
+        @include btnns;
+      }
+
+      &__btns:hover {
+        background: #15141A;
+        color: #FE8B46;
+        width: 220px;
+        height: 80px;
+      }
+
+    }
+
+    &--clone {
+      @include grid;
+
+      &__moro {
+        margin: 5% 0 5% 0;
+        color: $color;
+        @include moro;
+        &--img{
+          img{
+            width: 95%;
+          }
+
+        }
+        &--bored {
+          @include between;
+          padding: 4px 10px;
+          &__lines{
+            padding: 10px 20px;
+          }
+          &__dos {
+            padding: 0 0 0 14px
+          }
+
+          &__ape {
+            display: flex;
+            width: 70%;
+
+            &--image {
+              margin: 0 0 0 8%;
+            }
+          }
+
+          &__price {
+            &--number {
+              color: #FEAE51;
+              font-size: 20px;
+              @include between;
+
+            }
+          }
+
+        }
+
+        &--line {
+          width: 90%;
+          margin: 15% 0 0 5%;
+          border: 1px solid #A0A0A0;
+
+        }
+
+        &--img {
+          padding: 13px 0 0 0;
+          text-align: center;
+
+        }
+
+        &--diamonds {
+          padding: 7px 22px;
+          @include between;
+
+          &__hot {
+            font-size: 17px;
+            display: flex;
+          }
+        }
+      }
+    }
+
+    &--btnEnd {
+      @include just;
+      margin: 5% 0 0 0;
+
+      &__btnl {
+        @include btnt;
+        width: 161px;
+        height: 46px;
+        border-radius: 36px;
+        @include btnns;
+      }
+
+      &__star {
+        padding: 10% 70% 0 0;
+        position: absolute;
+        @include btnns;
+      }
+    }
+  }
+}
+
+#bored {
+  background: #15141A;
+  padding: 0 0 10% 0;
+  font-family: 'Inter', sans-serif;
+
+  .bored {
+    &--moro {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      &__first {
+        @include stuff;
+      }
+
+      &__top {
+        @include fames;
+      }
+
+
+      &__selec {
+        font-size: 45px;
+        background: transparent;
+        color: #F7A659;
+        border: none;
+        outline: none;
+
+        &--opti {
+          font-weight: 500;
+          font-size: 20px;
+          background: none;
+          color: #F7A659;
+          border: none;
+          outline: none;
+        }
+
+      }
+
+    }
+
+    &--ape {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+
+      &__monkey {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 15% 0 0 0;
+        width: 95%;
+        height: 90%;
+        border: 1px solid #BCBCBC;
+        border-radius: 13px;
+        color: $color;
+
+        &--yach {
+          margin: 0 0 0 38px;
+        }
+
+        &--frog {
+          display: flex;
+          margin: 0 0 0 -13px;
+          img{
+            padding: 0 5px;
+          }
+
+          &__discover {
+            color: #DC9752;
+          }
+        }
+
+        &--number {
+          font-size: 25px;
+        }
+
+        &--imeg {
+          width: 25px;
+        }
+
+        &--img {
+          position: absolute;
+          margin: 0 190px 44px 0;
+        }
+
+        &--imag {
+          position: absolute;
+          margin: 41px 190px 0 0;        }
+
+        &--yach {
+          &__circle {
+            font-size: 18px;
+          }
+
+          &__floor {
+            font-size: 16px;
+          }
+        }
+
+        &--proses {
+          color: #21D605;
+          font-size: 14px;
+          margin: 0 0 15% 0;
+        }
+      }
+    }
+
+    &--sell {
+      @include centr;
+      margin: 10% 0 0 0;
+
+      &__sector {
+        position: absolute;
+        width: 82px;
+        height: 48px;
+        border: 1px solid #FFFFFF;
+        border-radius: 39px;
+        transform: rotate(-90deg);
+        margin: -35px 60% 0 0;
+      }
+
+      &__view {
+        background: #15141A;
+        color: white;
+        width: 210px;
+        height: 64px;
+        border: 1px solid #FFFFFF;
+        border-radius: 36px;
+      }
+
+      &__shrift {
+        margin: 5% 0 0 50%;
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        transform: rotate(45.95deg);
+      }
+
+    }
+
+  }
+}
