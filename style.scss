@@ -79,7 +79,6 @@
     &--tittle1 {
       padding: 20px 0 0 190px;
       @include align;
-
       &__cover {
         @include tittle
       }
@@ -262,9 +261,9 @@
         color: white;
         background: #FE8B46;
         border: 1px solid white;
-        padding: 10px 15px;
+        padding: 10px 30px;
         border-radius: 40px;
-        font-size: 14px;
+        font-size: 30px;
         margin: 500px 0 0 0;
       }
 
