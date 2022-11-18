@@ -60,28 +60,28 @@
 }
 
 @media (max-width: 1240px) {
-  #header{
-      .searcher{
-        &--search{
-          padding: 0 0 0 500px;
-        }
+  #header {
+    .searcher {
+      &--search {
+        padding: 0 0 0 500px;
+      }
     }
   }
-#discover{
-  .discover{
-    &--tittle2{
-      &__sell{
-        font-size: 75px;
+  #discover {
+    .discover {
+      &--tittle2 {
+        &__sell {
+          font-size: 75px;
+        }
       }
     }
   }
 }
-}
 
 @media (max-width: 1200px) {
-  #header{
-    .searcher{
-      &--search{
+  #header {
+    .searcher {
+      &--search {
         padding: 0 0 0 490px;
       }
     }
@@ -277,9 +277,9 @@
 }
 
 @media (max-width: 992px) {
-  #header{
-    .searcher{
-      &--search{
+  #header {
+    .searcher {
+      &--search {
         padding: 0 0 0 420px;
       }
     }
@@ -293,7 +293,239 @@
   }
 }
 
+@media (max-width: 981px) {
+  #discover {
+    .discover {
+      &--tittle2 {
+        &__sell {
+          font-size: 53px;
+        }
+      }
+
+      &--star3 {
+        display: none;
+      }
+    }
+  }
+  #slider {
+    .collection {
+      .swiper-slide {
+        &__street {
+          padding: 160px 0 0 0;
+        }
+
+        &__tittle {
+          font-size: 14px;
+          padding: 232px 0 0 0;
+        }
+
+        &__btn {
+          padding: 7px 27px;
+          margin: 333px 0 0 169px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 955px) {
+  #header {
+    .searcher {
+      &--search {
+        padding: 0 0 0 410px;
+      }
+    }
+  }
+}
+
+@media (max-width: 933px) {
+  #header .searcher--search {
+    padding: 0 0 0 404px;
+  }
+  #discover {
+    .discover {
+      &--star1 {
+        display: none;
+      }
+
+      &--tittle2 {
+        &__sell {
+          font-size: 45px;
+        }
+      }
+
+      &--tittle1 {
+        padding: 20px 0 0 80px;
+      }
+
+      &--sponsors {
+        &__meta {
+          &--metamask {
+            font-size: 23px;
+          }
+        }
+      }
+    }
+  }
+  #slider .collection .swiper-slide__btn {
+    margin: 320px 0 0 160px;
+  }
+}
+
+@media (max-width: 840px) {
+  #header {
+    .searcher {
+      &--search {
+        padding: 0 0 0 382px;
+      }
+
+      &--menu {
+        &__a {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  #discover {
+    .discover {
+      &--rectangle8 {
+        display: none;
+      }
+
+      &--img2 {
+        padding: 0 0 0 180px;
+        width: 40%;
+      }
+
+      &--img3 {
+        padding: 40px 0 0 280px;
+        width: 39%;
+      }
+
+      &--tittle1 {
+        padding: 20px 0 0 55px;
+      }
+
+      &--tittle2 {
+        &__sell {
+          font-size: 36px;
+        }
+      }
+
+      &--sponsors {
+        &__bin {
+          &--binance {
+            font-size: 24px;
+          }
+        }
+        &__meta {
+          img {
+            width: 30%;
+          }
+
+          &--metamask {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+  #slider {
+    .collection {
+      .swiper-slide {
+        &__btn {
+          margin: 290px 0 0 138px;
+          padding: 5px 24px;
+        }
+
+        &__tittle {
+          font-size: 12px;
+          padding: 228px 0 0 0;
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 768px) {
+  #header{
+    .searcher{
+      &--search{
+        padding: 0 0 0 337px;
+      }
+      &--input{
+        margin: 0 0 0 40px;
+        width: 330px;
+        height: 38px;
+      }
+    }
+  }
+  #discover{
+    .discover{
+      &--star4{
+        display: none;
+      }
+      &--tittle2{
+        padding: 20px 0 0 170px;
+        &__sell{
+          font-size: 26px;
+          margin: 0 0 0 0;
+        }
+        &__img{
+          width: 180px;
+          height: 46px;
+        }
+      }
+      &--tittle1{
+        padding: 20px 0 0 40px;
+        &__cover{
+          font-size: 55px;
+        }
+        &__collect{
+          font-size: 55px;
+        }
+      }
+      &--remark{
+        font-size: 55px;
+        padding: 20px 0;
+      }
+      &--sponsors{
+        &__base{
+          font-size: 25px;
+        }
+        &__bin{
+          &--binance{
+            font-size: 20px;
+          }
+        }
+        &__revolut{
+          font-size: 25px;
+        }
+        &__trans{
+          &--tittle{
+            font-size: 25px;
+          }
+        }
+      }
+    }
+  }
+  #slider{
+    .collection{
+      .swiper-slide{
+        &__street{
+          padding: 130px 0 0 0;
+        }
+        &__btn{
+          margin: 255px 0 0 115px;
+          padding: 3px 21px;
+        }
+        &__tittle{
+          font-size: 10px;
+          padding: 195px 0 0 0;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 576px) {
