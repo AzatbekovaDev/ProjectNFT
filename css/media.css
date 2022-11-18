@@ -183,3 +183,149 @@
     margin: -450px 0 0 840px;
   }
 }
+@media (max-width: 981px) {
+  #discover .discover--tittle2__sell {
+    font-size: 53px;
+  }
+  #discover .discover--star3 {
+    display: none;
+  }
+  #slider .collection .swiper-slide__street {
+    padding: 160px 0 0 0;
+  }
+  #slider .collection .swiper-slide__tittle {
+    font-size: 14px;
+    padding: 232px 0 0 0;
+  }
+  #slider .collection .swiper-slide__btn {
+    padding: 7px 27px;
+    margin: 333px 0 0 169px;
+  }
+}
+@media (max-width: 955px) {
+  #header .searcher--search {
+    padding: 0 0 0 410px;
+  }
+}
+@media (max-width: 933px) {
+  #header .searcher--search {
+    padding: 0 0 0 404px;
+  }
+  #discover .discover--star1 {
+    display: none;
+  }
+  #discover .discover--tittle2__sell {
+    font-size: 45px;
+  }
+  #discover .discover--tittle1 {
+    padding: 20px 0 0 80px;
+  }
+  #discover .discover--sponsors__meta--metamask {
+    font-size: 23px;
+  }
+  #slider .collection .swiper-slide__btn {
+    margin: 320px 0 0 160px;
+  }
+}
+@media (max-width: 840px) {
+  #header .searcher--search {
+    padding: 0 0 0 382px;
+  }
+  #header .searcher--menu__a {
+    font-size: 13px;
+  }
+  #discover .discover--rectangle8 {
+    display: none;
+  }
+  #discover .discover--img2 {
+    padding: 0 0 0 180px;
+    width: 40%;
+  }
+  #discover .discover--img3 {
+    padding: 40px 0 0 280px;
+    width: 39%;
+  }
+  #discover .discover--tittle1 {
+    padding: 20px 0 0 55px;
+  }
+  #discover .discover--tittle2__sell {
+    font-size: 36px;
+  }
+  #discover .discover--sponsors__bin--binance {
+    font-size: 24px;
+  }
+  #discover .discover--sponsors__meta img {
+    width: 30%;
+  }
+  #discover .discover--sponsors__meta--metamask {
+    font-size: 18px;
+  }
+  #slider .collection .swiper-slide__btn {
+    margin: 290px 0 0 138px;
+    padding: 5px 24px;
+  }
+  #slider .collection .swiper-slide__tittle {
+    font-size: 12px;
+    padding: 228px 0 0 0;
+  }
+}
+@media (max-width: 768px) {
+  #header .searcher--search {
+    padding: 0 0 0 337px;
+  }
+  #header .searcher--input {
+    margin: 0 0 0 40px;
+    width: 330px;
+    height: 38px;
+  }
+  #discover .discover--star4 {
+    display: none;
+  }
+  #discover .discover--tittle2 {
+    padding: 20px 0 0 170px;
+  }
+  #discover .discover--tittle2__sell {
+    font-size: 26px;
+    margin: 0 0 0 0;
+  }
+  #discover .discover--tittle2__img {
+    width: 180px;
+    height: 46px;
+  }
+  #discover .discover--tittle1 {
+    padding: 20px 0 0 40px;
+  }
+  #discover .discover--tittle1__cover {
+    font-size: 55px;
+  }
+  #discover .discover--tittle1__collect {
+    font-size: 55px;
+  }
+  #discover .discover--remark {
+    font-size: 55px;
+    padding: 20px 0;
+  }
+  #discover .discover--sponsors__base {
+    font-size: 25px;
+  }
+  #discover .discover--sponsors__bin--binance {
+    font-size: 20px;
+  }
+  #discover .discover--sponsors__revolut {
+    font-size: 25px;
+  }
+  #discover .discover--sponsors__trans--tittle {
+    font-size: 25px;
+  }
+  #slider .collection .swiper-slide__street {
+    padding: 130px 0 0 0;
+  }
+  #slider .collection .swiper-slide__btn {
+    margin: 255px 0 0 115px;
+    padding: 3px 21px;
+  }
+  #slider .collection .swiper-slide__tittle {
+    font-size: 10px;
+    padding: 195px 0 0 0;
+  }
+}
